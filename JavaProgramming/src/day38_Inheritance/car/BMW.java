@@ -1,11 +1,10 @@
 package day38_Inheritance.car;
 
-public class BMW extends Car{
+public class BMW extends Car {
 
-    public BMW(String brand, String model, String year, double price, String color, double miles) {
+    public BMW(String brand, String model, int year, double price, String color, int miles) {
         super(brand, model, year, price, color, miles);
     }
-
 
     public void breaksDown(){
         System.out.println(brand + " " + model + " is breaks down");
@@ -14,14 +13,9 @@ public class BMW extends Car{
     public void racing(){
         System.out.println(brand + " " + model + " is racing");
     }
-
-
-
-
-
 }
 /*
-  2. BMW:
+BMW:
        extra methods:
              breaksDown()
              racing()
