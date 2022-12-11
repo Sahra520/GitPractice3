@@ -5,9 +5,9 @@ public class Task2 {
 
         String name="Begmuhammet";
         String name1="";
-        name1=name.substring(3);
+        name1=name.substring(3).toUpperCase();
         System.out.println(name);
-        System.out.println(name1);
+        System.out.println(name1);//MUHAMMET
 
         int $name_gfgdb=67897;
         int _ghjk=456;

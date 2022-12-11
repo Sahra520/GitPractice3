@@ -7,7 +7,7 @@ public class Tasks {
 1. Create a class called  CappuccinoBuyer. A variable named Size is
 given, write a program that can display the price and calories of
 cappuccino
-Valid sizes are tall, grande, venti and their
+Valid sizes are tall, grande, vent and their
 price & calories are:
 tall:
 price is $3.69
@@ -15,7 +15,7 @@ price is $3.69
 grande:
 price is $3.99;
 120 calories
-venti:
+vent:
 price is $4.29
 150 calories
 If the size is invalid then the output should
@@ -56,7 +56,7 @@ If batch type is US evening ==> print "Class times are 7-
 10 EST. M, T, W, Th, S, S"
 If batch type is EU ==> print "Class times are  10-5 EST.
 M, T, W, Th, F."
-If batch type is invalid, print "Invalid Btach"
+If batch type is invalid, print "Invalid Batch"
 Note:
  Solution 1: use if statement
 Solution 2: use switch statement

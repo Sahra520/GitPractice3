@@ -9,7 +9,8 @@ public class EmailTask1 {
         String rest = email.substring(email.indexOf("@"));
 
         email=lastName+"_"+firstName+rest;
-        System.out.println(email);
+        System.out.println(email);//tyson_mike@gmail.com
+        System.out.println(rest);//@gmail
     }
 }
 /*
