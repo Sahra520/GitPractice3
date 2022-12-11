@@ -2,14 +2,13 @@ package day38_Inheritance.car;
 
 public class Car {
 
-    public String brand;
-    public String model;
-    public String year;
+    public String brand, model;
+    public int year;
     public double price;
     public String color;
-    public double miles;
+    public int miles;
 
-    public Car(String brand, String model, String year, double price, String color, double miles) {
+    public Car(String brand, String model, int year, double price, String color, int miles) {
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -32,7 +31,7 @@ public class Car {
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", year='" + year + '\'' +
-                ", price=" + price +
+                ", price= $" + price +
                 ", color='" + color + '\'' +
                 ", miles=" + miles +
                 '}';
