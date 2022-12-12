@@ -1,4 +1,4 @@
-package day38_Inheritance.car;
+package day38_Inheritance_MethodOverriding.car;
 
 public class BMW extends Car {
 
@@ -11,8 +11,10 @@ public class BMW extends Car {
     }
 
     public void racing(){
-        System.out.println(brand + " " + model + " is racing");
+        System.out.println(brand + " " + model + " is a racing car");
     }
+
+
 }
 /*
 BMW:

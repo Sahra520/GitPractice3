@@ -1,4 +1,4 @@
-package day38_Inheritance.car;
+package day38_Inheritance_MethodOverriding.car;
 
 public class Car {
 
