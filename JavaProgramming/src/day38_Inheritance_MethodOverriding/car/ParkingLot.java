@@ -17,6 +17,7 @@ public class ParkingLot {
         toyota1.reliable();
         tesla1.start();//twist the key to Ignition
         toyota1.drive();
+        toyota1.start();
 
         System.out.println();
 
