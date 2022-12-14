@@ -7,7 +7,7 @@ public class Test1 {
 //for to see that comment we have to go Git  module and click Fetch
 
 //for copy of code click Git below(alttaki) and click Local>master==> new branch from master
-//when we create new branch we have gave them name and for that we use date and project name or ticket name-US
+//when we create new branch we have give them name and for that we use date and project name or ticket name-US
 //master means main project
 
 //if you work in company PLEASE CREATE YOUR OWN BRANCH THEN START WORK
@@ -23,7 +23,7 @@ public class Test1 {
 
 
 //what happened wrong copy of IDE? go to the commit and click your wrong class and rollback
-//then if you want you can rollback or delete
+//then if you want you can roll back or delete
 
  */
 
