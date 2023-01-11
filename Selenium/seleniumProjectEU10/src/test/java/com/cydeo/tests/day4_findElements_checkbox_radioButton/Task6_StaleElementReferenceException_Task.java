@@ -18,6 +18,7 @@ public class Task6_StaleElementReferenceException_Task {
        // 2- Go to: https://practice.cydeo.com/abtest
         driver.get("https://practice.cydeo.com/abtest");
 
+
        // 3- Locate “CYDEO” link, verify it is displayed.
 
        // 4- Refresh the page.
