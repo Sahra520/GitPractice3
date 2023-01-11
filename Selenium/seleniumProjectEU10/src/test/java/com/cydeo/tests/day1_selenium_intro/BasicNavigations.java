@@ -66,7 +66,7 @@ public class BasicNavigations {
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
 
         //this will close the currently opened window
-       // driver.close();
+        driver.close();
 
         //this will close all the opened windows
        // driver.quit();
