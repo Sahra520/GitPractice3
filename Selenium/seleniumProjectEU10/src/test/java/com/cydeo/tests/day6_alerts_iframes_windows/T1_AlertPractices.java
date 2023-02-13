@@ -61,12 +61,6 @@ public class T1_AlertPractices {
 
     /*
 
-TC #1: Information alert practice
-1. Open browser
-2. Go to website: http://practice.cydeo.com/javascript_alerts
-3. Click to “Click for JS Alert” button
-4. Click to OK button from the alert
-5. Verify “You successfully clicked an alert” text is displayed.
 
 TC #2: Confirmation alert practice
 1. Open browser
