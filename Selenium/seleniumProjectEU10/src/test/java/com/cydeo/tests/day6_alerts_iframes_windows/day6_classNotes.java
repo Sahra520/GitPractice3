@@ -39,10 +39,10 @@ public class day6_classNotes {
     // - What is the syntax with the indexing in xpath?
     // - How do we use indexes with xpath?
     //     - //tagName[@attribute='value'][3]
-    //     - If we use indexes without paranthesis, this way will only work in direct siblings.
+    //     - If we use indexes without parenthesis, this way will only work in direct siblings.
     //
     //     - (//tagName[@attribute='value'])[3]
-    //     - If we use indexes with paranthesis, this way it will work and index through the whole html page.
+    //     - If we use indexes with parenthesis, this way it will work and index through the whole html page.
     //
     //
     // ------------------------------------------------------------------------------------
@@ -76,7 +76,7 @@ public class day6_classNotes {
     //     - This annotation will convert a regular Java method into a runnable TestNG test.
     //     - Each test run by default in alphabetical order.
     //     - But we can change the running order using priority
-    //     - Each test is independent from each other UNLESS we create dependency.
+    //     - Each test is independent of each other UNLESS we create dependency.
     //
     //     @Test (priority = 1)
     //     public void test1(){
