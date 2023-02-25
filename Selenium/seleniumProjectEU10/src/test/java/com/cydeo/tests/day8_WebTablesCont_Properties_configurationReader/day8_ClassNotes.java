@@ -1,9 +1,9 @@
-package com.cydeo.tests.day9_WebTablesCont_Properties_configurationReader;
+package com.cydeo.tests.day8_WebTablesCont_Properties_configurationReader;
 
 public class day8_ClassNotes {
 
     /*
-    CLASSNOTES: DAY 8
+    CLASS NOTES: DAY 8
 Today schedule:
 
     - Warmup tasks 1_2_3
