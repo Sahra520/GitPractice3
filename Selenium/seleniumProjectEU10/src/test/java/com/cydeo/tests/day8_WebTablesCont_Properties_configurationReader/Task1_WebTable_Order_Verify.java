@@ -1,5 +1,6 @@
 package com.cydeo.tests.day8_WebTablesCont_Properties_configurationReader;
-import com.cydeo.utilities.WebDriverFactory;
+import com.cydeo.tests.utilities.WebDriverFactory;
+import com.cydeo.tests.utilities.WebTableUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -54,4 +55,36 @@ Expected: 12/31/2021
         Assert.assertEquals(actualBobDate,expectedBobDate);
 
     }
+
+
+
+
+
+
+
+    @Test
+    public void test2(){
+        String costumerOrderDate1 = WebTableUtils.returnOrderDate(driver,"Alexandra Gray");
+        System.out.println("costumerOrderDate1 = " + costumerOrderDate1);
+
+        String costumerOrderDate2 = WebTableUtils.returnOrderDate(driver,"John Doe");
+        System.out.println("costumerOrderDate2 = " + costumerOrderDate2);
+    }
+
+
+
+
+
+
+
+
+//using WebTableUtils.orderVerify(); method
+    @Test
+    public void test3(){
+        WebTableUtils.orderVerify(driver,"Bart Fisher","01/16/2021");
+    }
+
+
+
+
 }
